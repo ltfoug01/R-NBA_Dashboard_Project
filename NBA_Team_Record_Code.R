@@ -1,6 +1,6 @@
 '
  Code to calculate a team`s total record.
- Use with the Per Game Stats code.
+ Use with the NBA_Team_Stats_2021 Function code.
 '
 team1_record <- Team_Game_Log %>%
   select(`W/L`) %>%
