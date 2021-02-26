@@ -1,6 +1,6 @@
 '
  Code to calculate a team`s home record and away record.
- Use with the per game stats function.
+ Use with the NBA_Team_Stats_2021 Function.
 '
 Team1_Home_Away <- Team_Game_Log %>%
   select(`H/A`, `W/L`) %>%
