@@ -1,6 +1,6 @@
 '
  Code to calculate a team`s record over the last 10 games.
- Use with the Per Game Stats code.
+ Use with the NBA_Team_Stats_2021 Function code.
 '
 Team1_Last10 <- Team_Game_Log %>%
   select(G, `W/L`) %>%
