@@ -4,7 +4,7 @@
 '
 Team1_Home_Away <- Team_Game_Log %>%
   select(`H/A`, `W/L`) %>%
-  mutate(Win_Count_A = ifelse((`W/L` == 'W') & (`H/A` == '@'), 1, 0),
+  mutate(Win_Count_A = ifelse((`W/L` == 'W') & (`H/A` == '@'), 1, 0),     
          Loss_Count_A = ifelse((`W/L` == 'L') & (`H/A` == '@'), 1, 0),
          Win_Count_H = ifelse((`W/L` == 'W') & (`H/A` == ''), 1, 0),
          Loss_Count_H = ifelse((`W/L` == 'L') & (`H/A` == ''), 1, 0)) %>%
